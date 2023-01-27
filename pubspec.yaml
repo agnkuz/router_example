@@ -1,0 +1,28 @@
+name: router_example
+description: A router example.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  auto_route: ^5.0.4  
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  get_it: ^7.2.0
+  golden_toolkit: ^0.14.0
+  
+
+dev_dependencies:
+  auto_route_generator: ^5.0.3
+  build_runner: ^2.3.3
+  equatable: ^2.0.5
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
